@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
-
 const NavBar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
