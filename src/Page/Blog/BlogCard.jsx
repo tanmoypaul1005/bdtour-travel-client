@@ -21,7 +21,7 @@ const BlogCard = ({ data }) => {
                                 <img className="" src={userAvatar} alt="" />
                             </div>
                         </div>
-                        <div className='ml-[10px] flex items-center '>Name</div>
+                        <div className='ml-[10px] flex items-center'>Name</div>
                     </div>
 
                     <div className="card-actions justify-end">
