@@ -14,6 +14,7 @@ import Blog from "./Page/Blog/Blog";
 import BlogParent from "./Page/Blog/BlogParent";
 import BlogDetails from "./Page/Blog/BlogDetails";
 import SingUp from "./Page/SingUp/SingUp";
+import AddBlog from "./Page/Blog/AddBlog";
 
 function App() {
   // const submit = (e) => {
@@ -88,6 +89,7 @@ function App() {
           >
             <Route index element={<Blog />} />
             <Route path="details/:blog_id" element={<BlogDetails />} />
+            <Route path="add" element={<AddBlog />} />
           </Route>
 
         </Routes>
