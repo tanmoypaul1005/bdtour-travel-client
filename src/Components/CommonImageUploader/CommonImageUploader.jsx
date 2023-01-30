@@ -76,6 +76,7 @@ function CommonImageUploader() {
                                     <img
                                         id="uploaded-image"
                                         src={image}
+                                        style={{ width: 400, height: 390 }}
                                         draggable={false}
                                         alt="uploaded-img"
                                     />
